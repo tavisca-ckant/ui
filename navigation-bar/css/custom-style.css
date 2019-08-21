@@ -38,13 +38,24 @@ a:hover {
 }
 ul li ul {
   background: #ff6699;
+  display: none;
 }
 ul li ul li {
   float: none;
 }
-ul li ul {
-  display: none;
+
+ul li.top-1:hover ul.sub-menu-1 {
+  display: block;
 }
-ul li:hover ul {
+
+ul li.top-2:hover ul.sub-menu-2 {
+  display: block;
+}
+
+ul li.top-3:hover ul.sub-menu-3 {
+  display: block;
+}
+
+ul li.top-4:hover ul.sub-menu-4 {
   display: block;
 }
