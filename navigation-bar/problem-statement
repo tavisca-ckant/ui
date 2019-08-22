@@ -1,0 +1,5 @@
+Design a navigation bar.
+Last element of navigation bar should be in right.
+At least one of the item should have a dropdown.
+Can't use select tag.
+Bonus: Make it as pretty as possible.
